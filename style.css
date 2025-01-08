@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/042/194/856/non_2x/ai-generated-pixel-art-game-backgrounds-game-background-free-photo.jpg);
+  background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHhsYWc1dDZ2Nml4aDJmMDlwajI0cmV3MTRncGxwbXFzNDd3dzVxYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/f4IjBQupqojhqQzKk2/giphy.webp);
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/042/194/856/non_2x/ai-generated-pixel-art-game-backgrounds-game-background-free-photo.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -77,6 +78,37 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: none;
+    flex-direction: column; 
+    background-size: cover;
+    padding: 10px; 
   }
+
+  .calculator {
+    width: 90%; 
+    max-width: 320px;
+    padding: 15px; 
+    box-shadow: 0px 3px 10px rgba(113, 115, 119, 0.5);
+  }
+
+  input {
+    width: 100%; 
+    font-size: 1.2rem; 
+    padding: 15px;
+    margin: 8px 0;
+  }
+
+  button {
+    width: 50px; 
+    height: 50px; 
+    margin: 5px; 
+    font-size: 1rem; 
+  }
+
+  .equalbtn {
+    width: 60px;   
+    height: 60px;
+  }
+
+
 }
 
